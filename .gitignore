@@ -1,0 +1,85 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Bytecode cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Docker
+# -------------------------
+*.log
+docker-compose.override.yml
+/.docker/
+.dockerignore
+
+# -------------------------
+# Alembic
+# -------------------------
+migrations/versions/*.pyc
+migrations/versions/*.pyo
+migrations/versions/__pycache__/
+# Keep migration scripts, ignore cache
+
+# -------------------------
+# Tests / Coverage
+# -------------------------
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+.tox/
+nosetests.xml
+junit.xml
+
+# -------------------------
+# Env / Config
+# -------------------------
+.env.local
+.env.*.local
+.envrc
+secrets.json
+
+# -------------------------
+# SQLite / DB Files (if used locally)
+# -------------------------
+*.db
+*.sqlite3

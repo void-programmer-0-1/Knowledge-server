@@ -1,0 +1,1 @@
+python3 -m gunicorn -c gunicorn.config.py server:server
